@@ -27,9 +27,9 @@ const Home = () => {
   },[])
   return (
     <>
-    <div className="absolute top-0 left-0 w-full  flex flex-col justify-start items-center bg-grey z-10 gap-6 overflow-y-hidden">
-     <h1  className="text-8xl home-header font-semibold mt-14">Designer <span className="italic font-thin">Studio</span></h1>
-     <p className="italic text-2xl">Create. Wear. Inspire.</p>
+    <div className="absolute top-0 left-0 w-full  flex flex-col justify-start items-center bg-grey z-10 gap-6 overflow-y-hidden ">
+     <h1  className="text-5xl sm:text-8xl home-header font-semibold mt-14">Designer <span className="italic font-thin">Studio</span></h1>
+     <p className="italic text-xl sm:text-2xl">Create. Wear. Inspire.</p>
      <Link to='/customizer'>  <button className="bg-black text-white py-2 px-5 rounded">Start Creating</button></Link>
    
     </div>
